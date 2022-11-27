@@ -1,0 +1,9 @@
+Dependencies for Project 'LCD_Switch', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 529"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\lcd_func.c)(0x63833B67)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\lcd_func.o --omf_browse .\objects\lcd_func.crf --depend .\objects\lcd_func.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (header.h)(0x63833B30)
+F (.\lcd_switch.c)(0x63833B9A)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\lcd_switch.o --omf_browse .\objects\lcd_switch.crf --depend .\objects\lcd_switch.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (header.h)(0x63833B30)
